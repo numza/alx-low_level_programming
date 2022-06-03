@@ -9,7 +9,6 @@
 int main(void)
 {
 char arr[] = "and tha piece of art is useful\" - Dora Korpar,2015-10-19\n";
-
-fprintf(stderr, "%s", err);
+fprintf(stderr, "%s", arr);
 return (1);
 }
