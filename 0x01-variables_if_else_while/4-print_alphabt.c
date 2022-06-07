@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - Entry point
+ * main -Entry point
  *
  * Return: always 0
  *
@@ -11,9 +11,12 @@ int main(void)
 
 	while (c <= 122)
 	{
-		if (c != 'q' || c != 'e')
+		if (c != 'q')
 		{
-			putchar(c);
+			if (c != 'e')
+			{
+				putchar(c);
+			}
 		}
 		c++;
 	}
