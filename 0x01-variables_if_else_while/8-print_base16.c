@@ -8,10 +8,19 @@
 int main(void)
 {
 	int n = 0;
+	char c = 97;
 
-	while (n <= 16)
+	while (n < 16)
 	{
-		putchar(n + '0');
+		if (n <= 9)
+		{
+			putchar(n + '0');
+		}
+		else
+		{
+			putchar(c);
+			c++;
+		}
 		n++;
 	}
 	putchar('\n');
