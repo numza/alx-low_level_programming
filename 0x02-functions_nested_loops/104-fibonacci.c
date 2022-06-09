@@ -10,7 +10,6 @@ int main(void)
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
-	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
 
 	count = 0;
 
@@ -23,24 +22,24 @@ int main(void)
 		fib2 = sum;
 		count++;
 	}
+	print_fibonacci();
+	
+	printf("\n");
+	return (0);
+}
 
+void print_fibonacci()
+{
+	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
+	unsigned long half1, half2;
+	
+	int count = 93;
+	
 	fib1_half1 = fib1 / 10000000000;
 	fib2_half1 = fib2 / 10000000000;
 	fib1_half2 = fib1 % 10000000000;
 	fib2_half2 = fib2 % 10000000000;
 	
-
-	print_fibonacci(fib1_half1, fib1_half2, fib2_half1, fib2_half2);
-	printf("\n");
-	return (0);
-}
-
-void print_fibonacci(unsigned long fib1_half1, unsigned long fib1_half2, unsigned long fib2_half1, unsigned long fib2_half2)
-{
-	unsigned long half1, half2;
-	
-	int count = 93;
-
 	while (count < 99)
 	{
 		half1 = fib1_half1 + fib2_half1;
