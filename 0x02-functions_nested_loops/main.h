@@ -19,5 +19,5 @@ void print_alphabet();
  *
  * Return: void
  */
-void print_alphabet_10x();
+void print_alphabet_x10();
 
