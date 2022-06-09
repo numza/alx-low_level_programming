@@ -75,19 +75,19 @@ void times_table(void);
  *
  * Return: int
  */
-int add(int, int);
 
-/**
+
+/**int add(int, int);
  * print_to_98 -print absolute value of an intager
  *
  * Return: void
  */
-void print_to_98(int);
-/**
+
+/**void print_to_98(int);
  * print_times_table -print absolute value of an intager
  *
  * Return: void
  */
 
-void print_times_table(int n)
+/*void print_times_table(int n)*/
 
