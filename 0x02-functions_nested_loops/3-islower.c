@@ -2,6 +2,8 @@
 /**
  * _islower -Entry point
  *
+ * @c: paramiter
+ *
  * Return: int
  *
  */

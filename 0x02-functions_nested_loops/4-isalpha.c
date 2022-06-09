@@ -2,7 +2,9 @@
 /**
  * main - entry point
  *
- * Retur: int
+ * @c: parameter
+ *
+ * Return: int
  *
  */
 int _isalpha(int c)
