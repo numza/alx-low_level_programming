@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry point
+ * _isalpha - entry point
  *
  * @c: parameter
  *
