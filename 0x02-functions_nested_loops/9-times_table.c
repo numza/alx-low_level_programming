@@ -8,6 +8,7 @@
 void times_table(void)
 {
 	int num, mult, prod;
+
 	num = 0;
 
 	while (num <= 9)
