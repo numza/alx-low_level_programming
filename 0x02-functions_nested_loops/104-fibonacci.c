@@ -22,7 +22,7 @@ int main(void)
 		fib2 = sum;
 		count++;
 	}
-	print_fibonacci();
+	void print_fibonacci();
 	
 	printf("\n");
 	return (0);
