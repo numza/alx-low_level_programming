@@ -75,9 +75,9 @@ void times_table(void);
  *
  * Return: int
  */
+int add(int, int);
 
-
-/**int add(int, int);
+/**
  * print_to_98 -print absolute value of an intager
  *
  * Return: void
