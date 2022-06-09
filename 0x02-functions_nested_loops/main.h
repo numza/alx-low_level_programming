@@ -54,7 +54,7 @@ int _abs(int n);
  *
  * Return: int
  */
-int print_last_digit(int);
+int print_last_digit(int n);
 
 /**
  * jack_bauer -print absolute value of an intager
@@ -75,7 +75,7 @@ void times_table(void);
  *
  * Return: int
  */
-int add(int, int);
+int add(int n, int a);
 
 /**
  * print_to_98 -print absolute value of an intager
