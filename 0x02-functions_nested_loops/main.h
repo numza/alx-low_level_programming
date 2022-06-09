@@ -49,3 +49,45 @@ int print_sign(int n);
  */
 int _abs(int n);
 
+/**
+ * print_last_digit -print absolute value of an intager
+ *
+ * Return: int
+ */
+int print_last_digit(int);
+
+/**
+ * jack_bauer -print absolute value of an intager
+ *
+ * Return: void
+ */
+void jack_bauer(void);
+
+/**
+ * times_table -print absolute value of an intager
+ *
+ * Return: void
+ */
+void times_table(void);
+
+/**
+ * add -add intager
+ *
+ * Return: int
+ */
+int add(int, int);
+
+/**
+ * print_to_98 -print absolute value of an intager
+ *
+ * Return: void
+ */
+void print_to_98(int n);
+/**
+ * print_times_table -print absolute value of an intager
+ *
+ * Return: void
+ */
+
+void print_times_table(int n)
+
