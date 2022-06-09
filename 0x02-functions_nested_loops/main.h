@@ -12,7 +12,7 @@ int _putchar(int _char);
  * print_alphabet -print all alphabets in Lowercase
  * Return: void
  */
-void print_alphabet_10x();
+void print_alphabet();
 
 /**
  * print_alphbet_10x -Print ten alphabets
