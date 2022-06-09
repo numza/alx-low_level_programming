@@ -82,8 +82,9 @@ int add(int, int);
  *
  * Return: void
  */
+void print_to_98(int);
 
-/**void print_to_98(int);
+/**
  * print_times_table -print absolute value of an intager
  *
  * Return: void
