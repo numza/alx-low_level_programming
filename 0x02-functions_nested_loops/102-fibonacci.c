@@ -9,6 +9,7 @@ int main(void)
 {
 	int count = 0;
 	unsigned long fib1 = 0, fib2 = 1, sum;
+
 	while (count < 50)
 	{
 		sum = fib1 + fib2;
