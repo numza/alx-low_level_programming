@@ -1,5 +1,5 @@
+#include "stdout.h"
 #include "main.h"
-
 /**
  * _strchr - Entry point
  * @s: input
